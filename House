@@ -20,5 +20,3 @@ contract TokenCorrect is Token {
         balance[_to] += _amt;
     }
 }
-
-contract Test {

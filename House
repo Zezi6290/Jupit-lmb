@@ -12,4 +12,3 @@ contract TokenCorrect is Token {
         balance[_a] = _b;
     }
     function balanceOf(address _a) public view override returns (uint) {
-        return balance[_a];
